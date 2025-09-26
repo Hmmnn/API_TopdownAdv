@@ -1,0 +1,764 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00. MainGame">
+      <UniqueIdentifier>{b9c448c8-06e6-4a36-8df4-5e9dcadacf5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj">
+      <UniqueIdentifier>{5ef40d1f-7706-448b-bcff-b647cfb55375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scenes">
+      <UniqueIdentifier>{4c8d9659-9027-4efc-af67-54de01f6e00d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Utility">
+      <UniqueIdentifier>{c281a93a-dc5e-4147-a6fd-c26638031dc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scenes\00 Start">
+      <UniqueIdentifier>{79cbc1aa-a659-4a2b-8bf0-9b09edec8ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scenes\01 Field">
+      <UniqueIdentifier>{5983c57e-b81f-426e-8ab9-455b2de918bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scenes\02 Town">
+      <UniqueIdentifier>{5d3fde5e-d703-47fc-8d85-5b707291ecd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scenes\03 Dungeon">
+      <UniqueIdentifier>{3a2e0cd8-e5bb-4652-913a-2fcd8d342dde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scenes\04 Boss">
+      <UniqueIdentifier>{be5f21bd-7933-4f75-beec-cecb6640083a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\Base">
+      <UniqueIdentifier>{db82bc4e-83e7-4dba-b8b4-2d80ba8a4abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. VectorStruct">
+      <UniqueIdentifier>{037ecfd9-04de-4e2b-b886-f70da151c8c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Collider">
+      <UniqueIdentifier>{5fc43001-69af-40a1-ba15-3ecd6aa25f71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\GameObj">
+      <UniqueIdentifier>{c969362d-7726-4b17-a0d4-f3ded8dc0a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\GameObj\00. Player">
+      <UniqueIdentifier>{3d3f9bdc-869a-437d-98e0-9966f4c13ecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\StaticObj">
+      <UniqueIdentifier>{19ab0203-7da8-49a2-a181-b0a538e4ab41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\GameObj\Boss">
+      <UniqueIdentifier>{e9412bf1-d772-48d6-b69e-3f26aaa781a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\GameObj\Projectile">
+      <UniqueIdentifier>{e604098c-0016-47f4-8fbe-54f356e387e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\GameObj\Boss\Phase1">
+      <UniqueIdentifier>{17ea3433-1c73-4e7f-8554-dc559b98ba10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\GameObj\Boss\Phase2">
+      <UniqueIdentifier>{bc1b50a9-048d-4133-9c42-b48d8653959d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skill">
+      <UniqueIdentifier>{1db8ffb8-063b-4cc3-b462-164c499236d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\Item">
+      <UniqueIdentifier>{086c471c-14c1-449a-91e2-30aa6daa555a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\GameObj\Weapon">
+      <UniqueIdentifier>{7d95b5f8-e278-4929-96f0-173618e6bfec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\GameObj\Monster">
+      <UniqueIdentifier>{fcfcc70a-8d7c-4c83-ad7f-23595aa03ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skill\PlayerSkill">
+      <UniqueIdentifier>{16c40edf-e266-4eaf-9fec-e4ea6976ab64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skill\MonsterSkill">
+      <UniqueIdentifier>{36cbe47b-3f15-4cfc-9008-a4bdcef08cdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\GameObj\Projectile\PlayerProjectile">
+      <UniqueIdentifier>{61454737-3558-4403-a633-d018d5b39776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\GameObj\Projectile\BossProjectile">
+      <UniqueIdentifier>{85d9cc62-b735-44b0-b0ca-a8da972dc923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\GameObj\Projectile\MonsterProjectile">
+      <UniqueIdentifier>{b187857a-a5d7-45bb-bddd-c615275ba79b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\GameObj\Weapon\PlayerWeapon">
+      <UniqueIdentifier>{f840378f-2ff4-479d-8c81-dabf41fb1e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\GameObj\Weapon\MonsterWeapon">
+      <UniqueIdentifier>{c35618a1-235b-40bf-b4dd-3676645e4b60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\Editor">
+      <UniqueIdentifier>{5c41aef3-5972-41fc-9444-baae7ef951f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scenes\05 Edit">
+      <UniqueIdentifier>{ac27639e-48b1-446a-9a50-08bfabb5c0c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Utility\AbstractFactory">
+      <UniqueIdentifier>{2a2ed866-b9c1-4153-9786-bd811f4ae1ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inventory">
+      <UniqueIdentifier>{f10a8286-d598-462d-a545-d29e95417cb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\UI">
+      <UniqueIdentifier>{0979856b-b615-4fc2-bafd-bc978fa5bc31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\StaticObj\DungeonElem">
+      <UniqueIdentifier>{df858f08-3fb4-4c13-8370-f45ee86a7d19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\StaticObj\NPC">
+      <UniqueIdentifier>{3795fa79-16de-4469-8298-c0654de6e788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\Effect">
+      <UniqueIdentifier>{3a6add2e-d769-4d4e-a0bb-6d77026ae3ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Utility\Time">
+      <UniqueIdentifier>{8e0109df-6a60-4f74-98cc-1e737e1b89f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Utility\Keyboard">
+      <UniqueIdentifier>{71964624-39c9-4641-be12-f55ea65b1caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Managers">
+      <UniqueIdentifier>{6824fafd-d4d2-4e51-9f14-b16ef71157fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Managers\ButtonMgr">
+      <UniqueIdentifier>{ac51b972-8cdc-4033-8d49-95136e6c9c16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Managers\CollisionMgr">
+      <UniqueIdentifier>{85ffd5c7-f475-4a7a-91c1-c7719a9c2f4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Managers\EffectMgr">
+      <UniqueIdentifier>{00fbbf6b-894e-42d5-818f-71fc32e27fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Managers\ItemMgr">
+      <UniqueIdentifier>{65355271-3434-496a-ad81-f315ee9bf4e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Managers\ObjMgr">
+      <UniqueIdentifier>{0d89cc39-c2ea-45f3-92f4-54ed6ca691f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Managers\QuestMgr">
+      <UniqueIdentifier>{035f88c5-d6bf-49e4-ba3e-bd0a3dde3799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Managers\SceneMgr">
+      <UniqueIdentifier>{b20c0993-071e-4065-83ed-10f268e2ab10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Managers\ScrollMgr">
+      <UniqueIdentifier>{e24073ea-f2d0-4726-ba46-8ed6e8289fdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Managers\SkillMgr">
+      <UniqueIdentifier>{feb76ff9-fbda-4c3c-9495-561430a42c64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Managers\UIMgr">
+      <UniqueIdentifier>{b13f945f-a08c-41a2-be59-b7577e52bca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Managers\WallMgr">
+      <UniqueIdentifier>{c470df4d-dd77-4c10-af74-fd4fa02f2d59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Utility\BmpMgr">
+      <UniqueIdentifier>{5cf25332-ed7a-4fdd-a6ba-8b3d4a874ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Utility\BmpMgr\MyBmp">
+      <UniqueIdentifier>{ef419539-6432-4112-8645-b273424495e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Utility\SoundMgr">
+      <UniqueIdentifier>{e23e119b-f461-464f-a5bd-4449d60c20e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Utility\Library">
+      <UniqueIdentifier>{1d1fc5a7-9e6a-47f4-bcef-548d1ad258c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Utility\Library\FMOD">
+      <UniqueIdentifier>{345e8549-0d4a-4ad0-b72d-0f4b94df6c54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Utility\Grid">
+      <UniqueIdentifier>{139064bf-a54e-4625-adca-cdb7cc60e7c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Utility\AstarMgr">
+      <UniqueIdentifier>{a7b2bcbd-e5c2-41f0-86bc-c92397559d43}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="API_Portfolio.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01. Obj\GameObj\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>02. Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>04. Managers\SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>03. Utility\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollMgr.h">
+      <Filter>04. Managers\ScrollMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBmp.h">
+      <Filter>03. Utility\BmpMgr\MyBmp</Filter>
+    </ClInclude>
+    <ClInclude Include="BmpMgr.h">
+      <Filter>03. Utility\BmpMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>03. Utility\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimImage.h">
+      <Filter>01. Obj\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>01. Obj\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>02. Scenes\00 Start</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>05. VectorStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="FieldScene.h">
+      <Filter>02. Scenes\01 Field</Filter>
+    </ClInclude>
+    <ClInclude Include="TownScene.h">
+      <Filter>02. Scenes\02 Town</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonScene.h">
+      <Filter>02. Scenes\03 Dungeon</Filter>
+    </ClInclude>
+    <ClInclude Include="BossScene.h">
+      <Filter>02. Scenes\04 Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>06. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="RectCollider.h">
+      <Filter>06. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj.h">
+      <Filter>01. Obj\GameObj</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObj.h">
+      <Filter>01. Obj\StaticObj</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>04. Managers\CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMonster.h">
+      <Filter>01. Obj\GameObj\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>04. Managers\ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>03. Utility\AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserEye.h">
+      <Filter>01. Obj\GameObj\Boss\Phase1</Filter>
+    </ClInclude>
+    <ClInclude Include="Phase1Boss.h">
+      <Filter>01. Obj\GameObj\Boss\Phase1</Filter>
+    </ClInclude>
+    <ClInclude Include="Phase2Boss.h">
+      <Filter>01. Obj\GameObj\Boss\Phase2</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereCollider.h">
+      <Filter>06. Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldEye.h">
+      <Filter>01. Obj\GameObj\Boss\Phase2</Filter>
+    </ClInclude>
+    <ClInclude Include="BossTrap.h">
+      <Filter>01. Obj\GameObj\Boss\Phase1</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>01. Obj\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillMgr.h">
+      <Filter>04. Managers\SkillMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>01. Obj\GameObj\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="StateInterface.h">
+      <Filter>01. Obj\GameObj\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMgr.h">
+      <Filter>01. Obj\GameObj\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Octorok.h">
+      <Filter>01. Obj\GameObj\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrowAttack.h">
+      <Filter>Skill\PlayerSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="BoomerangAttack.h">
+      <Filter>Skill\PlayerSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="GuardSkill.h">
+      <Filter>Skill\PlayerSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicAttack.h">
+      <Filter>Skill\PlayerSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="MeleeAttack.h">
+      <Filter>Skill\PlayerSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="OctoAttack.h">
+      <Filter>Skill\MonsterSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>01. Obj\GameObj\Projectile\PlayerProjectile</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicBullet.h">
+      <Filter>01. Obj\GameObj\Projectile\PlayerProjectile</Filter>
+    </ClInclude>
+    <ClInclude Include="FallingStone.h">
+      <Filter>01. Obj\GameObj\Projectile\BossProjectile</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserBullet.h">
+      <Filter>01. Obj\GameObj\Projectile\BossProjectile</Filter>
+    </ClInclude>
+    <ClInclude Include="OctoBullet.h">
+      <Filter>01. Obj\GameObj\Projectile\MonsterProjectile</Filter>
+    </ClInclude>
+    <ClInclude Include="Rope.h">
+      <Filter>01. Obj\GameObj\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="RopeSkill.h">
+      <Filter>Skill\MonsterSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="Boomerang.h">
+      <Filter>01. Obj\GameObj\Weapon\PlayerWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>01. Obj\GameObj\Weapon\PlayerWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>01. Obj\GameObj\Weapon\PlayerWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="RopeHead.h">
+      <Filter>01. Obj\GameObj\Weapon\MonsterWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Keese.h">
+      <Filter>01. Obj\GameObj\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>03. Utility\SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod.h">
+      <Filter>03. Utility\Library\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod.hpp">
+      <Filter>03. Utility\Library\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_codec.h">
+      <Filter>03. Utility\Library\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_dsp.h">
+      <Filter>03. Utility\Library\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_errors.h">
+      <Filter>03. Utility\Library\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_memoryinfo.h">
+      <Filter>03. Utility\Library\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_output.h">
+      <Filter>03. Utility\Library\FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="KeeseSkill.h">
+      <Filter>Skill\MonsterSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="KeeseBody.h">
+      <Filter>01. Obj\GameObj\Weapon\MonsterWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="MyButton.h">
+      <Filter>01. Obj\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="MyEditScene.h">
+      <Filter>02. Scenes\05 Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="WallMgr.h">
+      <Filter>04. Managers\WallMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>01. Obj\StaticObj</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonMgr.h">
+      <Filter>04. Managers\ButtonMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemMgr.h">
+      <Filter>04. Managers\ItemMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="HeartItem.h">
+      <Filter>01. Obj\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="RupeeItem.h">
+      <Filter>01. Obj\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipItem.h">
+      <Filter>01. Obj\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="StoppedImage.h">
+      <Filter>01. Obj\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="HeartHpBar.h">
+      <Filter>01. Obj\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMgr.h">
+      <Filter>04. Managers\UIMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyGuide.h">
+      <Filter>01. Obj\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Budget.h">
+      <Filter>01. Obj\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Brazier.h">
+      <Filter>01. Obj\StaticObj\DungeonElem</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonObj.h">
+      <Filter>01. Obj\StaticObj\DungeonElem</Filter>
+    </ClInclude>
+    <ClInclude Include="TreasureBox.h">
+      <Filter>01. Obj\StaticObj\DungeonElem</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>01. Obj\StaticObj\DungeonElem</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.h">
+      <Filter>01. Obj\StaticObj\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestMgr.h">
+      <Filter>04. Managers\QuestMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>01. Obj\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectMgr.h">
+      <Filter>04. Managers\EffectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>03. Utility\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="AstarMgr.h">
+      <Filter>03. Utility\AstarMgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="API_Portfolio.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01. Obj\GameObj\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>02. Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>04. Managers\SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>03. Utility\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollMgr.cpp">
+      <Filter>04. Managers\ScrollMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBmp.cpp">
+      <Filter>03. Utility\BmpMgr\MyBmp</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpMgr.cpp">
+      <Filter>03. Utility\BmpMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>03. Utility\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimImage.cpp">
+      <Filter>01. Obj\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>01. Obj\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>02. Scenes\00 Start</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldScene.cpp">
+      <Filter>02. Scenes\01 Field</Filter>
+    </ClCompile>
+    <ClCompile Include="TownScene.cpp">
+      <Filter>02. Scenes\02 Town</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonScene.cpp">
+      <Filter>02. Scenes\03 Dungeon</Filter>
+    </ClCompile>
+    <ClCompile Include="BossScene.cpp">
+      <Filter>02. Scenes\04 Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>06. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="RectCollider.cpp">
+      <Filter>06. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj.cpp">
+      <Filter>01. Obj\GameObj</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticObj.cpp">
+      <Filter>01. Obj\StaticObj</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>04. Managers\CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMonster.cpp">
+      <Filter>01. Obj\GameObj\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>04. Managers\ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserEye.cpp">
+      <Filter>01. Obj\GameObj\Boss\Phase1</Filter>
+    </ClCompile>
+    <ClCompile Include="Phase1Boss.cpp">
+      <Filter>01. Obj\GameObj\Boss\Phase1</Filter>
+    </ClCompile>
+    <ClCompile Include="Phase2Boss.cpp">
+      <Filter>01. Obj\GameObj\Boss\Phase2</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereCollider.cpp">
+      <Filter>06. Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldEye.cpp">
+      <Filter>01. Obj\GameObj\Boss\Phase2</Filter>
+    </ClCompile>
+    <ClCompile Include="BossTrap.cpp">
+      <Filter>01. Obj\GameObj\Boss\Phase1</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>01. Obj\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillMgr.cpp">
+      <Filter>04. Managers\SkillMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState.cpp">
+      <Filter>01. Obj\GameObj\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMgr.cpp">
+      <Filter>01. Obj\GameObj\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Octorok.cpp">
+      <Filter>01. Obj\GameObj\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrowAttack.cpp">
+      <Filter>Skill\PlayerSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="BoomerangAttack.cpp">
+      <Filter>Skill\PlayerSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="GuardSkill.cpp">
+      <Filter>Skill\PlayerSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicAttack.cpp">
+      <Filter>Skill\PlayerSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="MeleeAttack.cpp">
+      <Filter>Skill\PlayerSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="OctoAttack.cpp">
+      <Filter>Skill\MonsterSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrow.cpp">
+      <Filter>01. Obj\GameObj\Projectile\PlayerProjectile</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicBullet.cpp">
+      <Filter>01. Obj\GameObj\Projectile\PlayerProjectile</Filter>
+    </ClCompile>
+    <ClCompile Include="FallingStone.cpp">
+      <Filter>01. Obj\GameObj\Projectile\BossProjectile</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserBullet.cpp">
+      <Filter>01. Obj\GameObj\Projectile\BossProjectile</Filter>
+    </ClCompile>
+    <ClCompile Include="OctoBullet.cpp">
+      <Filter>01. Obj\GameObj\Projectile\MonsterProjectile</Filter>
+    </ClCompile>
+    <ClCompile Include="Rope.cpp">
+      <Filter>01. Obj\GameObj\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="RopeSkill.cpp">
+      <Filter>Skill\MonsterSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="Boomerang.cpp">
+      <Filter>01. Obj\GameObj\Weapon\PlayerWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>01. Obj\GameObj\Weapon\PlayerWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>01. Obj\GameObj\Weapon\PlayerWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="RopeHead.cpp">
+      <Filter>01. Obj\GameObj\Weapon\MonsterWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Keese.cpp">
+      <Filter>01. Obj\GameObj\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>03. Utility\SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="KeeseSkill.cpp">
+      <Filter>Skill\MonsterSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="KeeseBody.cpp">
+      <Filter>01. Obj\GameObj\Weapon\MonsterWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>01. Obj\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEditScene.cpp">
+      <Filter>02. Scenes\05 Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>01. Obj\StaticObj</Filter>
+    </ClCompile>
+    <ClCompile Include="WallMgr.cpp">
+      <Filter>04. Managers\WallMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonMgr.cpp">
+      <Filter>04. Managers\ButtonMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemMgr.cpp">
+      <Filter>04. Managers\ItemMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="HeartItem.cpp">
+      <Filter>01. Obj\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="RupeeItem.cpp">
+      <Filter>01. Obj\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="EquipItem.cpp">
+      <Filter>01. Obj\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="StoppedImage.cpp">
+      <Filter>01. Obj\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="HeartHpBar.cpp">
+      <Filter>01. Obj\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMgr.cpp">
+      <Filter>04. Managers\UIMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyGuide.cpp">
+      <Filter>01. Obj\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Budget.cpp">
+      <Filter>01. Obj\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Brazier.cpp">
+      <Filter>01. Obj\StaticObj\DungeonElem</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonObj.cpp">
+      <Filter>01. Obj\StaticObj\DungeonElem</Filter>
+    </ClCompile>
+    <ClCompile Include="TreasureBox.cpp">
+      <Filter>01. Obj\StaticObj\DungeonElem</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>01. Obj\StaticObj\DungeonElem</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>01. Obj\StaticObj\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestMgr.cpp">
+      <Filter>04. Managers\QuestMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>01. Obj\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectMgr.cpp">
+      <Filter>04. Managers\EffectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>03. Utility\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="AstarMgr.cpp">
+      <Filter>03. Utility\AstarMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="API_Portfolio.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="API_Portfolio.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fmodexL.dll">
+      <Filter>03. Utility\Library\FMOD</Filter>
+    </None>
+    <None Include="fmodex.dll">
+      <Filter>03. Utility\Library\FMOD</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="fmodex_vc.lib">
+      <Filter>03. Utility\Library\FMOD</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
